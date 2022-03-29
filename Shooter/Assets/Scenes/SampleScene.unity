@@ -128,6 +128,25 @@ Camera:
   m_CorrespondingSourceObject: {fileID: 2000000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
   m_PrefabInstance: {fileID: 1674700476}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &80353268 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 103269178605682598, guid: 41241e61eec2c854c98828be2d8a112d, type: 3}
+  m_PrefabInstance: {fileID: 1136608040}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &80353277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 80353268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d77cb128571ef9469a4142fc2ae0a29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 718269182}
+  damage: 40
 --- !u!1 &132736788
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,10 +435,6 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 718269182}
-    - target: {fileID: 103269178605682652, guid: 41241e61eec2c854c98828be2d8a112d, type: 3}
-      propertyPath: chaseRange
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 103269178605682653, guid: 41241e61eec2c854c98828be2d8a112d, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -464,6 +479,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1245850981671594634, guid: 41241e61eec2c854c98828be2d8a112d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8598452
+      objectReference: {fileID: 0}
+    - target: {fileID: 1245850981671594634, guid: 41241e61eec2c854c98828be2d8a112d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.046
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41241e61eec2c854c98828be2d8a112d, type: 3}
 --- !u!1 &1193733089 stripped
@@ -486,6 +509,8 @@ MonoBehaviour:
   FPCamera: {fileID: 24962765}
   range: 100
   damage: 30
+  muzzleFlash: {fileID: 1555269154}
+  hitEffect: {fileID: 114239340501239630, guid: 63398f657b0abd0438f1dc33c1d6f121, type: 3}
 --- !u!1 &1414424560
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,6 +542,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!198 &1555269154 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 4929559443875273272, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+  m_PrefabInstance: {fileID: 1674700476}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1674700476
 PrefabInstance:
   m_ObjectHideFlags: 0
