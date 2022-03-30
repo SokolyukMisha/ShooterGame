@@ -19,6 +19,5 @@ public class EnemyAttack : MonoBehaviour
             return;
         }
         target.TakeDamage(damage);
-        Debug.Log("boobs");
     }
 }

@@ -8,10 +8,11 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
+        
         hitPoints -= damage;
         if (hitPoints <= 0)
         {
-            Debug.Log("YOU DIED");
+            GetComponent<DeathHandler>().HandleDeath();
         }
     }
 }
