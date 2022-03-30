@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class Weapon : MonoBehaviour
@@ -9,22 +10,28 @@ public class Weapon : MonoBehaviour
     [SerializeField] ParticleSystem muzzleFlash;
     [SerializeField] GameObject hitEffect;
     [SerializeField] Ammo ammoSlot;
-    void Update()
-    {    
+    [SerializeField] float timeBetweenShoots = 0.5f;
 
-        if (Input.GetButtonDown("Fire1"))
+    bool canShoot = true;
+    void Update()
+    {
+
+        if (Input.GetButtonDown("Fire1") && canShoot == true)
         {          
-            Shoot();
+           StartCoroutine(Shoot());
         }
     }
-    private void Shoot()
+    IEnumerator Shoot()
     {
+        canShoot = false;
         if (ammoSlot.GetCurrentAmmo() > 0)
         {
             PlayMuzzlleFlash();
             ProccesReycast();
             ammoSlot.ReduceCurrentAmmo();
         }
+        yield return new WaitForSeconds(timeBetweenShoots);
+        canShoot = true;
     }
 
     private void PlayMuzzlleFlash()
