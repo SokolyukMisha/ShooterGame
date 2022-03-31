@@ -548,7 +548,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -7268066418973790483, guid: 41241e61eec2c854c98828be2d8a112d, type: 3}
       propertyPath: m_StoppingDistance
-      value: 2
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 103269178605682598, guid: 41241e61eec2c854c98828be2d8a112d, type: 3}
       propertyPath: m_Name
@@ -621,7 +621,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -7268066418973790483, guid: 41241e61eec2c854c98828be2d8a112d, type: 3}
       propertyPath: m_StoppingDistance
-      value: 2
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 103269178605682598, guid: 41241e61eec2c854c98828be2d8a112d, type: 3}
       propertyPath: m_Name
@@ -873,7 +873,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -7268066418973790483, guid: 41241e61eec2c854c98828be2d8a112d, type: 3}
       propertyPath: m_StoppingDistance
-      value: 2
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 103269178605682598, guid: 41241e61eec2c854c98828be2d8a112d, type: 3}
       propertyPath: m_Name
@@ -1090,7 +1090,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -7268066418973790483, guid: 41241e61eec2c854c98828be2d8a112d, type: 3}
       propertyPath: m_StoppingDistance
-      value: 2
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 103269178605682598, guid: 41241e61eec2c854c98828be2d8a112d, type: 3}
       propertyPath: m_Name
@@ -1163,7 +1163,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -7268066418973790483, guid: 41241e61eec2c854c98828be2d8a112d, type: 3}
       propertyPath: m_StoppingDistance
-      value: 2
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 103269178605682598, guid: 41241e61eec2c854c98828be2d8a112d, type: 3}
       propertyPath: m_Name
@@ -1683,7 +1683,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -7268066418973790483, guid: 41241e61eec2c854c98828be2d8a112d, type: 3}
       propertyPath: m_StoppingDistance
-      value: 2
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 103269178605682598, guid: 41241e61eec2c854c98828be2d8a112d, type: 3}
       propertyPath: m_Name
@@ -1756,7 +1756,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -7268066418973790483, guid: 41241e61eec2c854c98828be2d8a112d, type: 3}
       propertyPath: m_StoppingDistance
-      value: 2
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 103269178605682598, guid: 41241e61eec2c854c98828be2d8a112d, type: 3}
       propertyPath: m_Name
@@ -2222,7 +2222,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -7268066418973790483, guid: 41241e61eec2c854c98828be2d8a112d, type: 3}
       propertyPath: m_StoppingDistance
-      value: 2
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 103269178605682598, guid: 41241e61eec2c854c98828be2d8a112d, type: 3}
       propertyPath: m_Name
@@ -2514,7 +2514,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -7268066418973790483, guid: 41241e61eec2c854c98828be2d8a112d, type: 3}
       propertyPath: m_StoppingDistance
-      value: 2
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 103269178605682598, guid: 41241e61eec2c854c98828be2d8a112d, type: 3}
       propertyPath: m_Name
@@ -2587,7 +2587,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -7268066418973790483, guid: 41241e61eec2c854c98828be2d8a112d, type: 3}
       propertyPath: m_StoppingDistance
-      value: 2
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 103269178605682598, guid: 41241e61eec2c854c98828be2d8a112d, type: 3}
       propertyPath: m_Name
